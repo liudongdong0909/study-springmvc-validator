@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--　配置包扫描器-->
+    <context:component-scan base-package="com.donggua.springmvc.controller,com.donggua.springmvc.common.exception"/>
+
+    <!-- 配置注解驱动-->
+    <mvc:annotation-driven/>
+
+    <!-- 注入校验对象，使用提交JSON对象时 Hibernate Validator 的参数校验-->
+    <bean class="org.springframework.validation.beanvalidation.MethodValidationPostProcessor"/>
+
+</beans>
