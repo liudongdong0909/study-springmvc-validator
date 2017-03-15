@@ -4,10 +4,12 @@ import com.donggua.springmvc.common.validator.goups.Save;
 import com.donggua.springmvc.common.validator.goups.Update;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.validation.annotation.Validated;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
+import java.util.List;
 
 /**
  * 商品表
@@ -29,9 +31,20 @@ public class Item {
 
     private Date created;
 
-    // 内嵌对象的校验 使用 @Valid 注解
+    // 内嵌对象的校验 使用 @Valid 注解(post提交：x-www-form-urlencoded 内嵌是可以，但是 json是不可以的; GET 提交是可以)
     @Valid
     private ItemDetail itemDetail;
+
+    @Valid
+    private List<ItemDetail> itemDetails;
+
+    public List<ItemDetail> getItemDetails() {
+        return itemDetails;
+    }
+
+    public void setItemDetails(List<ItemDetail> itemDetails) {
+        this.itemDetails = itemDetails;
+    }
 
     public ItemDetail getItemDetail() {
         return itemDetail;
@@ -81,6 +94,7 @@ public class Item {
                 ", price=" + price +
                 ", created=" + created +
                 ", itemDetail=" + itemDetail +
+                ", itemDetails=" + itemDetails +
                 '}';
     }
 }

@@ -104,7 +104,7 @@ public class Exception {
         String type = ((InvalidFormatException) exception.getRootCause()).getTargetType().getName();// 字段的类型
         Object value = ((InvalidFormatException) ((HttpMessageNotReadableException) exception).getRootCause()).getValue(); // 前端请求的值
 
-        ValidatorResult result = new ValidatorResult(fieldName, value + "不是" + type + "类型");
+        ValidatorResult result = new ValidatorResult(fieldName, value + " 不是 " + type + " 类型");
         return Result.build(Status.BAD_REQUEST, result);
     }
 
