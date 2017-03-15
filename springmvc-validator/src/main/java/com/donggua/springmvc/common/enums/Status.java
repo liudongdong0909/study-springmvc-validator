@@ -16,6 +16,9 @@ public enum Status {
     // 400 - bad request parameter
     BAD_REQUEST_PARAMETER(400, "参数验证失败"),
 
+    // 400 - bad request parameter
+    BAD_REQUEST_FORMAT(400, "参数类型错误"),
+
     // 404 - not found
     NOT_FOUND(404, "请求结果未找到"),
 
@@ -23,7 +26,7 @@ public enum Status {
     METHOD_NOT_ALLOWED(405, "请求方法类型不匹配"),
 
     // 415 - Unsupported Media Type
-    UNSUPPORTED_MEDIA_TYPE(415, "不支持当前媒体类型"),
+    UNSUPPORTED_MEDIA_TYPE(415, "不支持当前 Content-Type 类型"),
 
     // 2XX成功
     SUCCESS(200, "操作成功"),
