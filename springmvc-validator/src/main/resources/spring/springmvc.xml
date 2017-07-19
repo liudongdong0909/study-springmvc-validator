@@ -20,4 +20,11 @@
     <!-- 注入校验对象，使用提交JSON对象时 Hibernate Validator 的参数校验-->
     <bean class="org.springframework.validation.beanvalidation.MethodValidationPostProcessor"/>
 
+    <!--配置多媒体解析器 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!--设定编码 -->
+        <property name="defaultEncoding" value="UTF-8" />
+        <!--最大上传50M 50*1024*1024 -->
+        <property name="maxUploadSize" value="52428800" />
+    </bean>
 </beans>

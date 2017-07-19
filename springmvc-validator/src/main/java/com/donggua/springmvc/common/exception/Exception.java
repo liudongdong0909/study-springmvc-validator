@@ -7,7 +7,6 @@ import com.donggua.springmvc.common.util.ValidatorUtils;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.BindException;
@@ -31,7 +30,7 @@ import java.util.List;
  */
 @ControllerAdvice
 @ResponseBody
-public class Exception {
+public class Exception extends Throwable {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(Exception.class);
 
@@ -82,12 +81,12 @@ public class Exception {
      * @param exception
      * @return
      */
-    @ExceptionHandler(ResourceNotFoundException.class)
+   /* @ExceptionHandler(ResourceNotFoundException.class)
     @ResponseBody
     public Result handleNotFoundException(ResourceNotFoundException exception) {
         LOGGER.error("请求不存在", exception);
         return Result.build(Status.NOT_FOUND);
-    }
+    }*/
 
 
     /**
