@@ -15,6 +15,16 @@ public class WordExportResult {
 
     private List<WordSubTitle> wordSubTitles;// 二级标题
 
+    private String test;
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
+    }
+
     public String getTitle() {
         return title;
     }

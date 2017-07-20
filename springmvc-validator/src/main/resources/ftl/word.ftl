@@ -46,25 +46,17 @@
     <pkg:part pkg:name="/word/document.xml"
               pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml">
         <pkg:xmlData>
-            <w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
-                        xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
-                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            <w:document
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                         xmlns:o="urn:schemas-microsoft-com:office:office"
                         xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
                         xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
                         xmlns:v="urn:schemas-microsoft-com:vml"
-                        xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
-                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-                        xmlns:w10="urn:schemas-microsoft-com:office:word"
-                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
                         xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
-                        xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
-                        xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
-                        xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
-                        xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
-                        xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
-                        mc:Ignorable="w14 w15 w16se wp14">
+                    mc:Ignorable="w14 w15 w16se wp14">
                 <w:body>
                     <w:p w:rsidR="00E61269" w:rsidRPr="000F7A64" w:rsidRDefault="00E61269" w:rsidP="000F7A64">
                         <w:pPr>
@@ -105,112 +97,110 @@
                             <w:tab/>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00E61269" w:rsidRDefault="00E61269" w:rsidP="005504E6">
-                        <w:pPr>
-                            <w:pStyle w:val="a4"/>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="4"/>
-                            </w:numPr>
-                            <w:ind w:firstLineChars="0"/>
-                            <w:rPr>
-                                <w:rFonts w:hint="eastAsia"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="005504E6">
-                            <w:rPr>
-                                <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
-                            </w:rPr>
-                            <w:t>下列开方中计算正确的是（）</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00E61269" w:rsidRDefault="00E61269" w:rsidP="005504E6">
-                        <w:pPr>
-                            <w:ind w:firstLineChars="300" w:firstLine="630"/>
-                            <w:rPr>
-                                <w:rFonts w:cs="Calibri" w:hint="eastAsia"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:hint="eastAsia"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">A. </w:t>
-                        </w:r>
-                        <w:r>
-                            <w:rPr>
-                                <w:noProof/>
-                            </w:rPr>
-                            <w:drawing>
-                                <wp:inline distT="0" distB="0" distL="0" distR="0">
-                                    <wp:extent cx="246380" cy="222885"/>
-                                    <wp:effectExtent l="0" t="0" r="1270" b="5715"/>
-                                    <wp:docPr id="4" name="图片 4"
-                                              descr="C:\Users\zjcap_03\AppData\Local\Temp\ksohtml\wps7C5E.tmp.png"/>
-                                    <wp:cNvGraphicFramePr>
-                                        <a:graphicFrameLocks
-                                                xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
-                                                noChangeAspect="1"/>
-                                    </wp:cNvGraphicFramePr>
-                                    <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
-                                        <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
-                                            <pic:pic
-                                                    xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
-                                                <pic:nvPicPr>
-                                                    <pic:cNvPr id="0" name="Picture 2"
-                                                               descr="C:\Users\zjcap_03\AppData\Local\Temp\ksohtml\wps7C5E.tmp.png"/>
-                                                    <pic:cNvPicPr>
-                                                        <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
-                                                    </pic:cNvPicPr>
-                                                </pic:nvPicPr>
-                                                <pic:blipFill>
-                                                    <a:blip r:embed="rId5">
-                                                        <a:extLst>
-                                                            <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
-                                                                <a14:useLocalDpi
-                                                                        xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"
-                                                                        val="0"/>
-                                                            </a:ext>
-                                                        </a:extLst>
-                                                    </a:blip>
-                                                    <a:srcRect/>
-                                                    <a:stretch>
-                                                        <a:fillRect/>
-                                                    </a:stretch>
-                                                </pic:blipFill>
-                                                <pic:spPr bwMode="auto">
-                                                    <a:xfrm>
-                                                        <a:off x="0" y="0"/>
-                                                        <a:ext cx="246380" cy="222885"/>
-                                                    </a:xfrm>
-                                                    <a:prstGeom prst="rect">
-                                                        <a:avLst/>
-                                                    </a:prstGeom>
-                                                    <a:noFill/>
-                                                    <a:ln>
-                                                        <a:noFill/>
-                                                    </a:ln>
-                                                </pic:spPr>
-                                            </pic:pic>
-                                        </a:graphicData>
-                                    </a:graphic>
-                                </wp:inline>
-                            </w:drawing>
-                        </w:r>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:hint="eastAsia"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve"> = 2</w:t>
-                        </w:r>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:hint="eastAsia"/>
-                            </w:rPr>
-                            <w:tab/>
-                            <w:t xml:space="preserve">   </w:t>
-                        </w:r>
-                    </w:p>
+                    <#list subTitle.wordSubTitleItems as subTitleItem>
+                        <w:p w:rsidR="00E61269" w:rsidRDefault="00E61269" w:rsidP="005504E6">
+                            <w:pPr>
+                                <w:pStyle w:val="a4"/>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="4"/>
+                                </w:numPr>
+                                <w:ind w:firstLineChars="0"/>
+                                <w:rPr>
+                                    <w:rFonts w:hint="eastAsia"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="005504E6">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+                                </w:rPr>
+                                <w:t>${subTitleItem.descriptions}</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00E61269" w:rsidRDefault="00E61269" w:rsidP="005504E6">
+                            <w:pPr>
+                                <w:ind w:firstLineChars="300" w:firstLine="630"/>
+                                <w:rPr>
+                                    <w:rFonts w:cs="Calibri" w:hint="eastAsia"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <#if subTitleItem.choiceItems?exists>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:hint="eastAsia"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">${subTitleItem.choiceItems}</w:t>
+                                </w:r>
+                                <#if subTitleItem.choiceItemImages?exists>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:noProof/>
+                                        </w:rPr>
+                                        <w:drawing>
+                                            <wp:inline distT="0" distB="0" distL="0" distR="0">
+                                                <wp:extent cx="2463800" cy="2228850"/>
+                                                <wp:effectExtent l="0" t="0" r="1270" b="5715"/>
+                                                <wp:docPr id="4" name="图片 4"
+                                                          descr="C:\Users\zjcap_03\AppData\Local\Temp\ksohtml\wps7C5E.tmp.png"/>
+                                                <wp:cNvGraphicFramePr>
+                                                    <a:graphicFrameLocks
+                                                            xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                                                            noChangeAspect="1"/>
+                                                </wp:cNvGraphicFramePr>
+                                                <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                                    <a:graphicData  uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                                        <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                                            <pic:blipFill>
+                                                                <a:blip r:embed="rId5">
+                                                                    <a:extLst>
+                                                                        <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                                                            <a14:useLocalDpi
+                                                                                    xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"
+                                                                                    val="0"/>
+                                                                        </a:ext>
+                                                                    </a:extLst>
+                                                                </a:blip>
+                                                                <a:srcRect/>
+                                                                <a:stretch>
+                                                                    <a:fillRect/>
+                                                                </a:stretch>
+                                                            </pic:blipFill>
+                                                            <pic:spPr bwMode="auto">
+                                                                <a:xfrm>
+                                                                    <a:off x="0" y="0"/>
+                                                                    <a:ext cx="246380" cy="222885"/>
+                                                                </a:xfrm>
+                                                                <a:prstGeom prst="rect">
+                                                                    <a:avLst/>
+                                                                </a:prstGeom>
+                                                                <a:noFill/>
+                                                                <a:ln>
+                                                                    <a:noFill/>
+                                                                </a:ln>
+                                                            </pic:spPr>
+                                                        </pic:pic>
+                                                    </a:graphicData>
+                                                </a:graphic>
+                                            </wp:inline>
+                                        </w:drawing>
+                                    </w:r>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:rFonts w:hint="eastAsia"/>
+                                        </w:rPr>
+                                        <w:t xml:space="preserve"> = 2</w:t>
+                                    </w:r>
+                                    <w:r>
+                                        <w:rPr>
+                                            <w:rFonts w:hint="eastAsia"/>
+                                        </w:rPr>
+                                        <w:tab/>
+                                        <w:t xml:space="preserve">   </w:t>
+                                    </w:r>
+                                </#if>
+                            </#if>
+                        </w:p>
+                    </#list>
                 </#list>
 
 
@@ -233,52 +223,7 @@
         </pkg:xmlData>
     </pkg:part>
     <pkg:part pkg:name="/word/media/image1.png" pkg:contentType="image/png" pkg:compression="store">
-        <pkg:binaryData>iVBORw0KGgoAAAANSUhEUgAAABoAAAAXCAYAAAAV1F8QAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
-            AAAOxAAADsQBlSsOGwAACXpJREFUSA0BbwmQ9gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8A
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAD/AAAAAAAA
-            AAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAA/wAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA
-            AAAAAAAA/wAAAAEAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAD/AAAAAAAA
-            AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAQAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAD/
-            AAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAD/AAAAAQAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQtJfUPI4YA
-            AAAAAElFTkSuQmCC
-        </pkg:binaryData>
+        <pkg:binaryData>${model.test}</pkg:binaryData>
     </pkg:part>
     <pkg:part pkg:name="/word/theme/theme1.xml"
               pkg:contentType="application/vnd.openxmlformats-officedocument.theme+xml">
@@ -552,12 +497,10 @@
                         xmlns:o="urn:schemas-microsoft-com:office:office"
                         xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
                         xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
-                        xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word"
+                        xmlns:v="urn:schemas-microsoft-com:vml"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
                         xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
-                        xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
-                        xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main"
                         mc:Ignorable="w14 w15 w16se">
                 <w:zoom w:percent="110"/>
                 <w:bordersDoNotSurroundHeader/>
@@ -644,7 +587,6 @@
                            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                            xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
                            xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
-                           xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
                            mc:Ignorable="w14 w15 w16se">
                 <w:divs>
                     <w:div w:id="235867970">
@@ -674,7 +616,6 @@
                       xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                       xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
                       xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
-                      xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
                       mc:Ignorable="w14 w15 w16se">
                 <w:docDefaults>
                     <w:rPrDefault>
